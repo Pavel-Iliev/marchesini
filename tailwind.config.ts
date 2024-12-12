@@ -7,18 +7,16 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          light: '#93c5fd', // Lighter shade
-          DEFAULT: '#3b82f6', // Default shade
-          dark: '#1d4ed8', // Darker shade
+          light: '#8ED960',
+          regular: '#65B22E',
+          dark: '#4A801F',
         },
-        secondary: {
-          light: '#fde68a', // Light yellow
-          DEFAULT: '#f59e0b', // Default amber
-          dark: '#b45309', // Darker amber
+        background: {
+          regular: '#F3F3F3',
         },
       },
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'], // Make sure the font is loaded
+        poppins: ['Poppins', 'sans-serif'],
       },
     },
   },

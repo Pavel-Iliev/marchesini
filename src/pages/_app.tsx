@@ -10,7 +10,7 @@ const poppins = Poppins({
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <main className={poppins.className}>
+    <main className={`${poppins.className} bg-background-regular`}>
       <Component {...pageProps} />
     </main>
   );
